@@ -1,0 +1,23 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (max-width:400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    *{
+        background-color: black;
+    }
+}
+@media (orientation: landscape) {
+    h1{
+        background-color: blueviolet;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    *{
+        background-color: yellowgreen;
+    }
+}
